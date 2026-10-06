@@ -1,0 +1,29 @@
+# Python
+__pycache__
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Toolkit logs
+.mct_logs/
+
+# Local environment / secrets
+.env
+*.env
+*.bak-*
+
+# SSH keys (never commit these)
+*.pem
+id_*
+*_ed25519
+*_rsa
+
+# Claude Code
+.claude/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store

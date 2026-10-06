@@ -1,0 +1,8 @@
+# Copy to analysts.yaml (same directory) on the VM and fill in.
+#
+# Maps the analyst (the same value passed as --analyst=... in the forced
+# command in authorized_keys) to the email used as the author of git commits.
+# If an analyst is not listed here, "<analyst>@<VAULT_AUTHOR_DOMAIN or
+# example.com>" is used as a fallback - this file is optional.
+alice.analyst: alice.analyst@example.com
+bob.analyst: bob.analyst@example.com
